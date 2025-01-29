@@ -1,0 +1,33 @@
+nav {
+    font: var(--text-md);
+}
+
+#logo {
+    font: var(--text-lg);
+    color: var(--brand-color);
+}
+
+#profile-pic img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+#buttons {
+    #explore:hover {
+        & svg path {
+            fill: var(--brand-color);
+        }
+
+        & span {
+            color: var(--brand-color);
+        }
+    }
+    
+    #my-travels:hover {
+        color: var(--brand-color);
+    }
+
+    #profile-pic:hover {
+        filter: drop-shadow(0 0 3px var(--brand-color));
+    }
+}

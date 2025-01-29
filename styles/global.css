@@ -25,3 +25,17 @@
     --padding-block-md: 1.5rem;
     --padding-block-lg: 2rem;
 }
+
+body {
+    font: var(--text-sm);
+    color: var(--text-color-secondary);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.background-surface-color {
+    background-color: var(--surface-color);
+}
