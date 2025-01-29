@@ -18,4 +18,10 @@
     --text-md: 400 1rem/1.5 var(--font-family);
     --text-lg: 700 1.25rem/1.6 var(--font-family);
     --text-xl: 700 2rem/1.25 var(--font-family);
+
+    --padding-inline-sm: 1rem;
+    --padding-inline-lg: 2rem;
+    --padding-block-sm: 1rem;
+    --padding-block-md: 1.5rem;
+    --padding-block-lg: 2rem;
 }
