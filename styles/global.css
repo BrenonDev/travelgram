@@ -3,3 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --brand-color: ;
+    --background-color: ;
+    --surface-color: ;
+    --skeleton-color: ;
+    --shape-transparency: ;
+    --text-color-primary: ;
+    --text-color-secondary: ;
+
+    --font-family: "Poppins", serif;
+    --text-sm: 400 .875rem/1.7 var(--font-family);
+    --text-md: 400 1rem/1.5 var(--font-family);
+    --text-lg: 700 1.25rem/1.6 var(--font-family);
+    --text-xl: 700 2rem/1.25 var(--font-family);
+}
