@@ -1,4 +1,5 @@
 nav {
+    padding: var(--padding-block-sm) var(--padding-inline-sm);
     font: var(--text-md);
 
     & #logo {
@@ -29,5 +30,11 @@ nav {
         & #profile-pic:hover {
             filter: drop-shadow(0 0 3px var(--brand-color));
         }
+    }
+}
+
+@media (width >= 80em) {
+    nav {
+        padding: var(--padding-block-md) var(--padding-inline-lg);
     }
 }
