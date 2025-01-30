@@ -3,7 +3,7 @@ nav {
     font: var(--text-md);
 
     & #logo {
-        font: var(--text-lg);
+        font: var(--heading-sm);
         color: var(--brand-color);
     }
     
@@ -33,8 +33,8 @@ nav {
     }
 }
 
-@media (width >= 80em) {
-    nav {
+@media (width >= 55em) {
+    & nav {
         padding: var(--padding-block-md) var(--padding-inline-lg);
     }
 }

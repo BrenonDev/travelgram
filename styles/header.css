@@ -1,0 +1,45 @@
+header {
+    padding: var(--padding-block-lg) var(--padding-inline-lg);
+    
+    & #profile {
+        flex-direction: column;
+
+        & div {
+            max-width: 24rem;
+        }
+
+        & img {
+            width: 7.5rem;
+            height: 7.5rem;
+        }
+
+        & h1 {
+            font: var(--heading-md);
+            color: var(--text-color-primary);
+        }
+
+        & p {
+            text-align: justify;
+        }
+    }
+
+    & #info {
+        width: 17.5rem;
+    }
+
+    @media (width >= 41em) {
+        & #profile {
+            gap: 2rem;
+            flex-direction: row;
+
+            & img {
+                width: 11rem;
+                height: 11rem;
+            }
+
+            & h1 {
+                font: var(--heading-lg);
+            }
+        }
+    }
+}

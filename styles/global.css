@@ -16,8 +16,9 @@
     --font-family: "Poppins", serif;
     --text-sm: 400 .875rem/1.7 var(--font-family);
     --text-md: 400 1rem/1.5 var(--font-family);
-    --text-lg: 700 1.25rem/1.6 var(--font-family);
-    --text-xl: 700 2rem/1.25 var(--font-family);
+    --heading-sm: 700 1.25rem/1.6 var(--font-family);
+    --heading-md: 700 1.5rem/1.25 var(--font-family);
+    --heading-lg: 700 2rem/1.25 var(--font-family);
 
     --padding-inline-sm: 1rem;
     --padding-inline-lg: 2rem;
@@ -36,6 +37,15 @@ a {
     color: inherit;
 }
 
+li {
+    list-style: none;
+}
+
+img {
+    object-fit: contain;
+}
+
 .background-surface-color {
     background-color: var(--surface-color);
+    width: 100vw;
 }
