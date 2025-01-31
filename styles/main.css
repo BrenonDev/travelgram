@@ -1,7 +1,6 @@
 main {
     padding: var(--padding-block-sm) var(--padding-inline-sm);
     gap: 1rem;
-    max-width: calc(84rem);
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));    
 
     & a:hover {

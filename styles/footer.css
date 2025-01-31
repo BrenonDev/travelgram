@@ -1,0 +1,55 @@
+footer {
+    padding: var(--padding-block-md) var(--padding-inline-lg);
+
+    & #copyright {
+        margin-inline: auto;
+    }
+
+    & #terms {
+        margin-inline: auto;
+
+        & a {
+            margin-inline: auto;
+
+            &:hover {
+                transition: color 0.15s ease;
+                color: var(--brand-color);
+            }
+        }
+    }
+
+    & #signature {
+        text-align: center;
+        
+        & a {
+            font: .875rem "Roboto Mono", monospace;
+            background: var(--skeleton-color);
+            color: var(--text-color-primary);
+            display: inline-block;
+            padding: .1875rem .4375rem .3125rem;
+            margin-inline: auto;
+            border-radius: .3125rem;
+
+            &:hover {
+                transition: color 0.15s ease;
+                color: var(--brand-color);
+            }
+        }
+    }
+
+    
+
+    @media (width >= 33em) {
+        & #copyright {
+            margin-inline: initial;
+        }
+    
+        & #terms {
+            margin-inline: initial;
+        }
+
+        & #signature {
+           
+        }
+    }
+}
