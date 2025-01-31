@@ -30,6 +30,7 @@
 body {
     font: var(--text-sm);
     color: var(--text-color-secondary);
+    background-color: var(--background-color);
 }
 
 a {
@@ -42,6 +43,8 @@ li {
 }
 
 img {
+    display: block;
+    max-width: 100%;
     object-fit: contain;
 }
 

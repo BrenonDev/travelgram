@@ -31,10 +31,10 @@ nav {
             filter: drop-shadow(0 0 3px var(--brand-color));
         }
     }
-}
-
-@media (width >= 41em) {
-    & nav {
-        padding: var(--padding-block-md) var(--padding-inline-lg);
+    
+    @media (width >= 41em) {
+        & {
+            padding: var(--padding-block-md) var(--padding-inline-lg);
+        }
     }
 }
