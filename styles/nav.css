@@ -33,7 +33,7 @@ nav {
     }
 }
 
-@media (width >= 55em) {
+@media (width >= 41em) {
     & nav {
         padding: var(--padding-block-md) var(--padding-inline-lg);
     }

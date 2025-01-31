@@ -1,25 +1,4 @@
-/* .padding-inline-sm {
-    padding-inline: var(--padding-inline-sm);
-}
-
-.padding-inline-lg {
-    padding-inline: var(--padding-inline-lg);
-}
-
-.padding-block-sm {
-    padding-block: var(--padding-block-sm);
-}
-
-.padding-block-md {
-    padding-block: var(--padding-block-md);
-}
-
-.padding-block-lg {
-    padding-block: var(--padding-block-lg);
-} */
-
 .container {
-    --max-width: 22.5em;
     --max-width: auto;
     width: var(--max-width);
     margin-inline: auto;

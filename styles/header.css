@@ -5,7 +5,7 @@ header {
         flex-direction: column;
 
         & div {
-            max-width: 24rem;
+            max-width: initial;
         }
 
         & img {
@@ -31,6 +31,10 @@ header {
         & #profile {
             gap: 2rem;
             flex-direction: row;
+
+            & div {
+                max-width: 24rem;
+            }
 
             & img {
                 width: 11rem;
