@@ -1,5 +1,5 @@
 nav {
-    padding: var(--padding-block-sm) var(--padding-inline-sm);
+    padding: var(--padding-sm) var(--padding-sm);
     font: var(--text-md);
 
     & #logo {
@@ -15,30 +15,30 @@ nav {
     & #buttons {
         & #explore:hover {
             & svg path {
-                transition: fill 0.15s ease;
+                transition: fill .15s linear;
                 fill: var(--brand-color);
             }
     
             & span {
-                transition: color 0.15s ease;
+                transition: color .15s linear;
                 color: var(--brand-color);
             }
         }
         
         & #my-travels:hover {
-            transition: color 0.15s ease;
+            transition: color .15s linear;
             color: var(--brand-color);
         }
     
         & #profile-pic:hover {
-            transition: filter 0.15s ease;
+            transition: filter .15s linear;
             filter: drop-shadow(0 0 .18rem var(--brand-color));
         }
     }
     
     @media (width >= 41em) {
         & {
-            padding: var(--padding-block-md) var(--padding-inline-lg);
+            padding: var(--padding-md) var(--padding-lg);
         }
     }
 }

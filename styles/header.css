@@ -1,12 +1,8 @@
 header {
-    padding: var(--padding-block-lg) var(--padding-inline-lg);
+    padding: var(--padding-lg) var(--padding-lg);
     
     & #profile {
         flex-direction: column;
-
-        & div {
-            max-width: initial;
-        }
 
         & img {
             width: 7.5rem;

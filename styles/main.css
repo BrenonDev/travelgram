@@ -1,16 +1,16 @@
 main {
-    padding: var(--padding-block-sm) var(--padding-inline-sm);
+    padding: var(--padding-sm) var(--padding-sm);
     gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));    
 
     & a:hover {
-        transition: filter 0.15s ease;
+        transition: filter .2s linear;
         filter: drop-shadow(0 0 .25rem var(--brand-color));
     }
 
     @media (width >= 41em) {
         & {
-            padding: var(--padding-block-md) var(--padding-inline-lg);
+            padding: var(--padding-md) var(--padding-lg);
             gap: 1.5rem;
         }
     }

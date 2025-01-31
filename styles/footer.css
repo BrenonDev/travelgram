@@ -1,5 +1,5 @@
 footer {
-    padding: var(--padding-block-md) var(--padding-inline-lg);
+    padding: var(--padding-md) var(--padding-lg);
 
     & #copyright {
         margin-inline: auto;
@@ -12,7 +12,7 @@ footer {
             margin-inline: auto;
 
             &:hover {
-                transition: color 0.15s ease;
+                transition: color .15s linear;
                 color: var(--brand-color);
             }
         }
@@ -31,7 +31,9 @@ footer {
             border-radius: .3125rem;
 
             &:hover {
-                transition: color 0.15s ease;
+                transition: color .15s linear;
+                background: var(--surface-color);
+                outline: 1px solid var(--skeleton-color);
                 color: var(--brand-color);
             }
         }
@@ -46,10 +48,6 @@ footer {
     
         & #terms {
             margin-inline: initial;
-        }
-
-        & #signature {
-           
         }
     }
 }
