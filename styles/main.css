@@ -1,13 +1,12 @@
 main {
     padding: var(--padding-block-sm) var(--padding-inline-sm);
     gap: 1rem;
+    max-width: calc(84rem);
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));    
 
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-    max-width: 84rem;
-
-    & a {
-        /* min-width: 17.875rem; */
-        /* max-width: 20.5rem; */
+    & a:hover {
+        transition: filter 0.15s ease;
+        filter: drop-shadow(0 0 .25rem var(--brand-color));
     }
 
     @media (width >= 41em) {
