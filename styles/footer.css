@@ -10,9 +10,9 @@ footer {
 
         & a {
             margin-inline: auto;
+            transition: color .15s linear;
 
             &:hover {
-                transition: color .15s linear;
                 color: var(--brand-color);
             }
         }
@@ -29,17 +29,15 @@ footer {
             padding: .1875rem .4375rem .3125rem;
             margin-inline: auto;
             border-radius: .3125rem;
+            transition: color .15s linear;
 
             &:hover {
-                transition: color .15s linear;
                 background: var(--surface-color);
                 outline: 1px solid var(--skeleton-color);
                 color: var(--brand-color);
             }
         }
     }
-
-    
 
     @media (width >= 33em) {
         & #copyright {

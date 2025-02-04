@@ -3,9 +3,12 @@ main {
     gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));    
 
-    & a:hover {
+    & a {
         transition: filter .2s linear;
-        filter: drop-shadow(0 0 .25rem var(--brand-color));
+
+        &:hover {
+            filter: drop-shadow(0 0 .25rem var(--brand-color));
+        }
     }
 
     @media (width >= 41em) {
